@@ -1,0 +1,101 @@
+$logo-clr: #ffc01f;
+$helio-gry: #3a393a;
+$content-clr: #cdcdcd;
+$header-clr: #fff;
+$card-clr: #545353;
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /*border: 1px solid green;*/
+}
+figure img{
+  max-width: 205px;
+  max-height: 205px;
+}
+html {
+  background-color: $helio-gry;
+}
+.page-wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+main {
+  /*display: grid;*/
+}
+.my-info {
+  display: flex;
+  /*align-content: space-between;*/
+}
+.info-remainder {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+.name-date {
+  display: flex;
+  justify-content: space-between;
+}
+.helio-choose {
+  background-color: $card-clr;
+}
+.helio-choose div {
+  padding-top: 10px;
+  padding-left: 15px;
+  color: $logo-clr;
+  font-weight: bold;
+}
+.helio-choose ul {
+  padding-left: 15px;
+  list-style-position: inside;
+}
+.tech {
+  display: flex;
+  justify-content: space-between;
+}
+figure {
+  margin: 20px 0px;
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  bottom: 30px;
+  padding: 6px;
+  background: rgba(2, 2, 2, .7);
+  color: $content-clr;
+}
+h2, h3 {
+  color: $logo-clr;
+  margin: 0px;
+}
+p, li {
+  color: $content-clr;
+}
+time {
+  color: $header-clr;
+  font-size: 1.5em;
+}
+
+.excited-learn {
+  margin-top: 20px;
+  background-color: $card-clr;
+  padding: 15px;
+}
+footer {
+  margin-top: 20px;
+  background-color: $card-clr;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
